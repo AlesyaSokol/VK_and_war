@@ -16,6 +16,12 @@ SECOND PART OF THE RESEARCH - TOPIC MODELLING
 
 For the dataset, contact me.
 
-The files:
+Code:
 - Make dataset for topic modelling.ipynb
 - Topic_modelling_colab.ipynb
+
+Processed data:
+- time_topics_nowar_full.csv
+- time_topics_z_full.csv
+- topics_diagram.csv
+- topics_portions.csv
