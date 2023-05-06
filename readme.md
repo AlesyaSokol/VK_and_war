@@ -1,27 +1,32 @@
-FIRST PART OF THE RESEARCH - VK USERS STATISTICS
+Этот репозиторий содержит код и технические описания исследования по сравнению антивоенных и провоенных пользователей VK.
 
-dataset.zip contains 2 csv files:
+## Часть 1: Net войне
 
-- total_users_hashed.csv - users data without info about subscribtions
-- total_users_with_subscribtions_hashed.csv - users data with info about subscribtions
+***Публикация:*** https://novayagazeta.eu/articles/2023/04/11/net-voine
 
-In both of them, the hash function was applied to users id, to make the data anonimous
+В папке находятся:
 
-Statistics_1.ipynb is for plots about demographics and values
+- supplementary.pdf - технические детали, не вошедшие в публикацию в Новой Газете
+- dataset.zip c двумя csv файлами:
+  - total_users_hashed.csv - анонимизированные данные пользователей
+  - total_users_with_subscribtions_hashed.csv - анонимизированные данные пользователей, включая подписки
+- Statistics_1.ipynb - графики с демографией и ценностями
+- Subscriptions analysis_1.ipynb - анализ подписок + ML-модель для определения позиции пользователя по подпискам
 
-Subscriptions analysis_1.ipynb contains the code for plots about subscribtions and ML-model
+## Часть 2: Тематическое моделирование
 
+Анализ постов пользователей VK. 
 
-SECOND PART OF THE RESEARCH - TOPIC MODELLING
+В папке находятся:
 
-For the dataset, contact me.
+- Нарративы VK.pdf - методы и результаты исследования
+- Код:
+  - Make dataset for topic modelling.ipynb - предобработка данных
+  - Topic_modelling_colab.ipynb - анализ данных
+- Результаты, использовавшиеся для построения графиков:
+  - time_topics_nowar_full.csv
+  - time_topics_z_full.csv
+  - topics_diagram.csv
+  - topics_portions.csv
 
-Code:
-- Make dataset for topic modelling.ipynb
-- Topic_modelling_colab.ipynb
-
-Processed data:
-- time_topics_nowar_full.csv
-- time_topics_z_full.csv
-- topics_diagram.csv
-- topics_portions.csv
+Если вы хотели бы получить датасет, свяжитесь со мной.
